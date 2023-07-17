@@ -1,10 +1,19 @@
 {
   "manifest_version": 3,
   "name": "Web Security Sleuth",
-  "description": "Uses mozilla http-observatory API to rate website security",
+  "description": "Uses mozilla http-observatory API to rate website security.",
   "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
   "action": {
-    "default_popup": "",
-    "default_icon": ""
+    "default_popup": "html/index.html"
+  },
+
+  "icons": {
+    "16": "images/magnifying-glass-16.png",
+    "32": "images/magnifying-glass-32.png",
+    "48": "images/magnifying-glass-48.png",
+    "128": "images/magnifying-glass-128.png"
   }
 }
